@@ -87,8 +87,12 @@ main {
 
 .drivers-list-item {
   white-space: nowrap;
+  border-right: 2px solid white;
+  padding-right: 12px;
 }
-
+.drivers-list-item:last-child {
+  border-right: none; /* last item should not have line */
+}
 .drivers-link {
   text-decoration: none;
   color: #ffffff;
